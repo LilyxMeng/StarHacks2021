@@ -1,0 +1,101 @@
+.journal {
+    background-color: #d3d3e3;
+}
+
+.title {
+    padding-top: 120px;
+    width: 100%;
+}
+
+.journal-pages {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 18px;
+}
+
+.journal-page {
+    text-decoration: none;
+    color: black;
+}
+
+.journal-page:hover {
+    color: white;
+}
+
+.vl {
+    border-left: 2px solid black;
+    height: 30px;
+}
+
+#title {
+    padding-top: 60px;
+    text-align: center;
+    font-size: 28px;
+}
+
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+.user-journal {
+    padding-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.journal-section {
+    display: flex;
+    padding-top: 30px;
+}
+
+/* fix box sizing */
+.journal-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.journal-notes {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.input-label {
+    padding: 0 0 15px 0;
+    font-size: 18px;
+}
+
+#journal-title {
+    font-size: 18px;
+}
+
+input {
+    font-size: 18px;
+    padding: 7px 7px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+textarea {
+    height: 200px;
+    font-size: 18px;
+    padding: 7px 7px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#submit {
+    margin-top: 30px;
+    padding: 10px 10px;
+    font-size: 16px;
+    width: 100%;
+}

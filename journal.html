@@ -15,12 +15,12 @@
 </head>
 
 
-<body>
+<body class="journal">
     <nav class="navbar">
         <div class="web-name">
             <a href="loginhome.html" class="navbar-page">Web Name</a>
         </div>
-        
+
         <div class="pages">
             <a href="journal.html" class="navbar-page">Journal</a>
             <a href="progresschart.html" class="navbar-page">Progress Chart</a>
@@ -30,10 +30,40 @@
         </div>
     </nav>
 
+    <div class="title">
+        <div class="journal-pages">
+            <a href="journalhome.html" class="journal-page">Your Journal</a>
+            <div class="vl"></div>
+            <a href="journalcommunity.html" class="journal-page">Community</a>
+        </div>
+
+        <h1 id="title">Write Your Thoughs and Ideas Here!</h1>
+    </div>
+
+    <div class="form">
+        <div class="user-journal">
+            <form class="contact-form" method="GET" action="#">
+                <div class="journal-section">
+                    <div class="journal-title">
+                        <p class="input-label">Journal Title</p>
+                        <input name="journal-title" id="journal-title" type="text" value="">
+                    </div>
+                </div>
+
+                <div class="journal-section">
+                    <div class="journal-notes">
+                        <p class="input-label">Your Notes</p>
+                        <textarea name="journal-notes" id="journal-notes" type="text" value=""></textarea>
+                    </div>
+                </div>
+                <button id="submit" type="button" name="submit">Publish!</button>
+            </form>
+        </div>
+
+        </main>
 
 
 </body>
-
 
 
 
