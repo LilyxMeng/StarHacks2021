@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    width: 100%;
+    background-image: linear-gradient(to right, #afaaff, #f7ccff);
+}
+
+.web-name {
+    width: 40%;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 2vw;
+}
+
+.pages {
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navbar-page, .navbar-page:visited {
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+}
+
+.navbar-page:hover {
+    color: white;
+}
