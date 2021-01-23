@@ -1,0 +1,30 @@
+.journal {
+    background-color: #d3d3e3;
+}
+
+.title {
+    padding-top: 120px;
+    width: 100%;
+}
+
+.journal-pages {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 18px;
+}
+
+.journal-page {
+    text-decoration: none;
+    color: black;
+}
+
+.journal-page:hover {
+    color: white;
+}
+
+.vl {
+    border-left: 2px solid black;
+    height: 30px;
+}
