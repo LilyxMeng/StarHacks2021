@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    z-index: 999;
+    position: fixed;
+    height: 75px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right, #afaaff, #f7ccff);
+    border-bottom: 2px solid white;
+}
+
+.web-name {
+    width: 40%;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 2vw;
+}
+
+.pages {
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navbar-page, .navbar-page:visited {
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+}
+
+.navbar-page:hover {
+    color: white;
+}
