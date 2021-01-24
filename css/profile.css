@@ -1,0 +1,38 @@
+.content {
+    padding-top: 120px;
+}
+
+#title {
+    text-align: center;
+    font-size: 25px;
+}
+
+.profile-form {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+.profile-section {
+    padding-top: 50px;
+}
+
+.name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+    margin: auto;
+}
+
+.input-label {
+    padding: 0 0 15px 0;
+    font-size: 18px;
+}
+
+.profile-input {
+    font-size: 18px;
+    padding: 7px 7px;
+    font-family: 'Times New Roman', Times, serif;
+}
