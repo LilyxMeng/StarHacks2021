@@ -17,16 +17,15 @@
 }
 
 .web-name {
-    width: 40%;
+    width: 85%;
     display: flex;
     justify-content: flex-start;
-    padding-left: 2vw;
 }
 
 .pages {
-    width: 60%;
+    width: 50%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: flex-end;
 }
 
 .navbar-page, .navbar-page:visited {
