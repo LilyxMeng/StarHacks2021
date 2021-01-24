@@ -40,3 +40,14 @@
     padding: 10px 10px;
     margin-top: -30px;
 }
+
+.save {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 80%;
+    margin-top: 50px;
+    padding: 10px 10px;
+    font-size: 20px;
+}
