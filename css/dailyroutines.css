@@ -1,3 +1,11 @@
 .dailyroutines {
     background-color: #d3d3e3;
 }
+
+.content {
+    padding-top: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
