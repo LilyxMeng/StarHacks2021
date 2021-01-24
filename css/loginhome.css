@@ -1,3 +1,20 @@
 .index {
-    background-color: #d3d3e3;
+    background-color: #d2acac;
+}
+
+.content {
+    padding-top: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+    height: auto;
 }
